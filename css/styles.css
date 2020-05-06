@@ -6072,6 +6072,14 @@ a.close.disabled {
   background-position: center;
   height: 750px;
 }
+.bg-primary-contact {
+  /* background-image:  url(../assets/img/contact.jpg); */
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+
+  height: 400;
+}
 .bg-primary {
   background-color: #78b6eb !important;
 }
