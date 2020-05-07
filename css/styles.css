@@ -6254,6 +6254,16 @@ button.bg-dark:focus {
   border-radius: 0.5rem !important;
 }
 
+.rounded-menu {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+
 .rounded-top {
   border-top-left-radius: 0.5rem !important;
   border-top-right-radius: 0.5rem !important;
@@ -9762,6 +9772,9 @@ button.bg-dark:focus {
 .text-white {
   color: #fff !important;
 }
+.text-black {
+  color: #000 !important;
+}
 
 .text-primary {
   color: #1abc9c !important;
@@ -10063,13 +10076,15 @@ h3 {
   color: #000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #fff;
+  /* color: #fff; */
+  font-weight: 700;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #fff;
+  /* color: #fff; */
+  font-weight: 700;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
