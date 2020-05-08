@@ -475,6 +475,18 @@ mark,
   content: "— ";
 }
 
+.img-osteo {
+  border-radius: 300px;
+  width: 350px;
+  height: 350px;
+  background-color: #78b6eb;
+  /* Future image de l'osteo */
+  /* background-image: url(../assets/img/votre-osteopathe.jpg);; */
+}
+.img-osteo p{
+  font-weight: 600;
+}
+
 .img-fluid-caption {
   max-width: 100%;
   height: auto;
