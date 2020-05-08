@@ -10091,7 +10091,7 @@ h3 {
     color: #000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #000;
   }
 
   #mainNav.navbar-shrink {
