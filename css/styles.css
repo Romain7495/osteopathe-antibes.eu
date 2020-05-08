@@ -477,9 +477,9 @@ mark,
 
 .img-osteo {
   max-width: 100%;
-  border-radius: 350px;
-  width: 350px;
-  height: 350px;
+  border-radius: 310px;
+  width: 310px;
+  height: 310px;
   background-color: #0c5678;
   /* Future image de l'osteo */
   /* background-image: url(../assets/img/votre-osteopathe.jpg);; */
@@ -491,9 +491,9 @@ mark,
 .img-fluid-caption {
   max-width: 100%;
   height: auto;
-  border-radius: 350px;
-  width: 350px;
-  height: 350px;
+  border-radius: 310px;
+  width: 310px;
+  height: 310px;
 }
 .img-fluid {
   max-width: 100%;
@@ -10153,9 +10153,9 @@ h3 {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(12, 86, 120, 0.7);
-  border-radius: 350px;
-  width: 350px;
-  height: 350px;
+  border-radius: 310px;
+  width: 310px;
+  height: 310px;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
