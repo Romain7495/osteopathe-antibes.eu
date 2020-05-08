@@ -479,7 +479,7 @@ mark,
   border-radius: 300px;
   width: 350px;
   height: 350px;
-  background-color: #78b6eb;
+  background-color: #238aba;
   /* Future image de l'osteo */
   /* background-image: url(../assets/img/votre-osteopathe.jpg);; */
 }
@@ -6070,7 +6070,7 @@ a.close.disabled {
   height: 400;
 }
 .bg-primary {
-  background-color: #78b6eb !important;
+  background-color: #238aba !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
