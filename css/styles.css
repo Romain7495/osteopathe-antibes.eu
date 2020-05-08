@@ -476,10 +476,10 @@ mark,
 }
 
 .img-osteo {
-  border-radius: 300px;
+  border-radius: 350px;
   width: 350px;
   height: 350px;
-  background-color: #238aba;
+  background-color: #0c5678;
   /* Future image de l'osteo */
   /* background-image: url(../assets/img/votre-osteopathe.jpg);; */
 }
@@ -6070,7 +6070,7 @@ a.close.disabled {
   height: 400;
 }
 .bg-primary {
-  background-color: #238aba !important;
+  background-color: #0c5678 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10235,8 +10235,8 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #2c3e50;
+  padding-bottom: 2rem;
+  background-color: #0c5678;
   color: #fff;
 }
 .footer h4 {
