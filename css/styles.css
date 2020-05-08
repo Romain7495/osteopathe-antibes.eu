@@ -475,6 +475,13 @@ mark,
   content: "— ";
 }
 
+.img-fluid-caption {
+  max-width: 100%;
+  height: auto;
+  border-radius: 350px;
+  width: 350px;
+  height: 350px;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -10133,6 +10140,9 @@ h3 {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(120, 182, 235, 0.7);
+  border-radius: 350px;
+  width: 350px;
+  height: 350px;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
