@@ -11,6 +11,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -26,6 +27,7 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Cabinet</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Pour qui ?</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#pricing">Tarifs</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#appointment">Un RDV ?</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -33,19 +35,20 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary-picture text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- <img class="masthead-avatar mb-5" style="display: none;" src="assets/img/placeholder-circle.png" alt="" /> -->
-                <h1 class="masthead-heading mb-0" >Louise CAZALS</h1>
-                <h1 class="masthead-subsubheading  mb-0">Ostéopathe D.O.</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
+                <div  style="padding-top: 6rem;" class="col-lg-6 ml-auto container d-flex align-items-center flex-column">
+                    <!-- <img class="masthead-avatar mb-5" style="display: none;" src="assets/img/placeholder-circle.png" alt="" /> -->
+                    <h1 class="masthead-heading mb-0" >Louise CAZALS</h1>
+                    <h1 class="masthead-subsubheading  mb-0">Ostéopathe D.O.</h1>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Masthead Subheading-->
+                    <!-- <p class="masthead-subheading font-weight-light mb-0">Diplomée du Centre Ostéopathique ATMAN</p> -->
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Diplomée du Centre Ostéopathique ATMAN</p>
-            </div>
         </header>
-        <section class="page-section text-black mb-0" id="trainings">
+        
+        <section class="page-section text-black mb-0" style="padding-bottom: 2rem;"  id="trainings">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-black">Votre ostéo</h2>
@@ -67,14 +70,27 @@
                     </p></div>
                     <div style="text-align: center" class="col-lg-5 ml-auto d-flex">
                         <div class="img-osteo">
-                            <p class="lead mb-0"><br/><br/><br/><br/>Placeholder</p>
+                            <p class="lead mb-0" style="color: #fff" ><br/><br/><br/><br/>Placeholder</p>
                         </div>
                     </div>
-                   
-                    
                 </div>
             </div>
         </section>
+        <section class="page-section text-black mb-0" style="padding-top: 2rem;" >
+            <div class="container quote-custom">
+                <blockquote class="quote-card">
+                    <p style="padding-top: 8rem;">
+                      Je crois que la loi de la vie lorsqu'elle est sagement comprise, est à la fois simple et naturelle.
+                    </p>
+                    <cite>
+                      Andrew Taylor STILL<br/>
+                      Fondateur de l'Ostéopathie
+                    </cite>
+                  </blockquote>
+            </div>
+            
+        </section>
+
          <!-- About Section-->
          <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
@@ -110,8 +126,9 @@
                 </div>
             </div>
         </section>
+
         <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section portfolio test-div" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">L'ostéopathie : pour qui ?</h2>
@@ -121,27 +138,52 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row">
+            
+                    <img data-toggle="modal" data-target="#portfolioModal1" class="pointer-cursor rounded-circle col-md-6 col-lg-4 mb-5"
+                         alt="ados" src="assets/img/portfolio/square/nourisson.jpg"/>
+
+                    <img data-toggle="modal" data-target="#portfolioModal2" class="pointer-cursor rounded-circle col-md-6 col-lg-4 mb-5"
+                         alt="ados" src="assets/img/portfolio/square/ados.jpg" data-holder-rendered="true"/>
+
+                    <img data-toggle="modal" data-target="#portfolioModal3" class="pointer-cursor rounded-circle col-md-6 col-lg-4 mb-5"
+                         alt="ados" src="assets/img/portfolio/square/adultes.jpg" data-holder-rendered="true"/>
+
+                    <img data-toggle="modal" data-target="#portfolioModal4" class="pointer-cursor rounded-circle col-md-6 col-lg-4 mb-5 mb-lg-0"
+                         alt="ados" src="assets/img/portfolio/square/seniors.jpg"  data-holder-rendered="true"/>
+
+                    <img data-toggle="modal" data-target="#portfolioModal5" class="pointer-cursor rounded-circle col-md-6 col-lg-4 mb-5 mb-md-0"
+                         alt="ados" src="assets/img/portfolio/square/sportifs.jpg" data-holder-rendered="true"/>
+
+                    <img data-toggle="modal" data-target="#portfolioModal6" class="pointer-cursor rounded-circle col-md-6 col-lg-4"
+                         alt="ados" src="assets/img/portfolio/square/grossesse.jpg" data-holder-rendered="true"/>
+                
+                </div>
+                <div style="display: none;"  class="row">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid-caption" src="assets/img/portfolio/nourisson.jpg" alt="" />
-                        </div>
+                    <div class="rounded-circle col-md-6 col-lg-4 mb-5 mx-auto" style="background-image: url(https://placehold.it/300x300);"  data-toggle="modal" data-target="#portfolioModal1">
+                        <!-- <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div> -->
+                        <!-- <img class="rounded-circle" src="assets/img/portfolio/nourisson.jpg"  alt="" /> -->
+                        <!-- <img class="rounded-circle" src="https://placehold.it/300x300" alt="" /> -->
                     </div>
+                    <div data-toggle="modal" data-target="#portfolioModal2" class="rounded-circle mx-auto col-md-6 col-lg-4 mb-5" style="background-color:#000;);" >
+                        <!-- <img class="rounded-circle" alt="300x300" src="https://placehold.it/300x300" data-holder-rendered="true"> -->
+                    </div>
+                    
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div class="circle mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid-caption" src="assets/img/portfolio/ados.jpg" alt="" />
+                            <!-- <div  class="img-fluid-caption" style="background-image: url(assets/img/portfolio/ados.jpg);"></div> -->
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div class="circle mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -150,7 +192,7 @@
                     </div>
                     <!-- Portfolio Item 4-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="circle mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -159,7 +201,7 @@
                     </div>
                     <!-- Portfolio Item 5-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div class="circle mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -168,7 +210,7 @@
                     </div>
                     <!-- Portfolio Item 6-->
                     <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div class="circle mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -179,7 +221,7 @@
             </div>
         </section>
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="pricing">
+        <section  style="padding-bottom: 0rem;" class="page-section bg-primary text-white mb-0" id="pricing">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Les Tarifs</h2>
@@ -207,6 +249,10 @@
                     </p></div>
 
                 </div>
+            </div>
+        </section>
+        <section  style="padding-top: 4rem;" class="page-section bg-primary text-white mb-0" id="appointment">
+            <div class="container">
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="#"><i class="fas fa-calendar-check mr-2"></i>Prendre un Rendez Vous</a>
@@ -285,7 +331,7 @@
                 </div>
                 <br/>
                 <br/>
-                <div class="container"><small>Copyright © cazals-osteo.fr 2020 &nbsp&nbsp - &nbsp&nbsp Création RL</small></div>
+                <div class="container"><small>Copyright © cazals-osteo.fr 2020<br/>Création RL</small></div>
             </div>
         </footer>
         

@@ -461,23 +461,10 @@ mark,
   text-transform: uppercase;
 }
 
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-
-.blockquote-footer {
-  display: block;
-  font-size: 80%;
-  color: #6c757d;
-}
-.blockquote-footer::before {
-  content: "— ";
-}
 
 .img-osteo {
   max-width: 100%;
-  border-radius: 310px;
+  border-radius: 50%;
   width: 310px;
   height: 310px;
   background-color: #0c5678;
@@ -488,10 +475,11 @@ mark,
   font-weight: 600;
 }
 
-.img-fluid-caption {
+.img-fluid-caption  {
   max-width: 100%;
+  margin:0 auto;
   height: auto;
-  border-radius: 310px;
+  border-radius: 50%;
   width: 310px;
   height: 310px;
 }
@@ -10138,6 +10126,19 @@ h3 {
     font-size: 1.5rem;
   }
 }
+/* .portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+} */
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -10146,6 +10147,7 @@ h3 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -10248,3 +10250,49 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
   line-height: 0;
 }
+
+
+.quote-card {
+  padding-left: 150px; 
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card p {
+  font-size: 29px;
+  line-height: 1.5;
+  max-width: 80%;
+  text-align: center;
+  color: #0c5678;
+  font-family: Montserrat;
+  /* font-weight: 700; */
+}
+.quote-card cite {
+  font-size: 19px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  color: #0c5678;
+  font-family: Montserrat;
+}
+
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10em;
+  color: #0c5678;
+  font-weight: 300;
+}
+
+@media (max-width: 640px) {
+  .quote-card {
+    padding-left: 50px;
+  }
+}
+
+
+
