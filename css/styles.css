@@ -9960,6 +9960,19 @@ h3 {
 }
 
 
+.page-section .page-section-subheading {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 150;
+}
+@media (min-width: 992px) {
+  .page-section .page-section-subheading {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 150;
+  }
+}
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -10294,5 +10307,16 @@ form .row:first-child .floating-label-form-group {
   }
 }
 
+.map {
+  height: 30rem;
+}
 
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
 
+.map iframe {
+  pointer-events: none;
+}
