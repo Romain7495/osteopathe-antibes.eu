@@ -10161,21 +10161,18 @@ h3 {
   overflow: hidden;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.portfolio-item-caption{
   position: absolute;
   top: 0;
   left: 0;
+  background-clip: content-box, padding-box;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(12, 86, 120, 0.7);
-  border-radius: 310px;
-  width: 310px;
-  height: 310px;
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.portfolio-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portfolio-item-caption {
   font-size: 1.5rem;
 }
 
