@@ -10320,3 +10320,7 @@ form .row:first-child .floating-label-form-group {
 .map iframe {
   pointer-events: none;
 }
+
+.osteo-galery {
+  cursor: pointer;
+}
