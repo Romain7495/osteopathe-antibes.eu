@@ -396,6 +396,12 @@ h6, .h6 {
   font-weight: 300;
 }
 
+.lead-formation {
+  font-size: 1.15rem;
+  font-weight: 100;
+  font-family: "Montserrat";
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
@@ -10320,4 +10326,14 @@ form .row:first-child .floating-label-form-group {
 
 .osteo-galery {
   cursor: pointer;
+}
+
+.card-columns {
+  column-count: 2;
+}
+
+@media (max-width: 576px) {
+.card-columns {
+  column-count: 1;
+}
 }
