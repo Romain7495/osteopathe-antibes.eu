@@ -473,7 +473,7 @@ mark,
   border-radius: 50%;
   width: 310px;
   height: 310px;
-  background-color: #0c5678;
+  background-color: #34bb9d;
   /* Future image de l'osteo */
   /* background-image: url(../assets/img/votre-osteopathe.jpg);; */
 }
@@ -3871,6 +3871,8 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 15px;
+
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -6065,7 +6067,11 @@ a.close.disabled {
   height: 400;
 }
 .bg-primary {
-  background-color: #0c5678 !important;
+  background-color: #34bb9d !important;
+}
+.bg-primary-cabinet {
+  background-color: #fff !important;
+  color: #34bb9d;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9761,6 +9767,9 @@ button.bg-dark:focus {
 .text-primary {
   color: #1abc9c !important;
 }
+.text-primary-cabinet {
+  color: #34bb9d !important;
+}
 
 a.text-primary:hover, a.text-primary:focus {
   color: #117964 !important;
@@ -9927,6 +9936,7 @@ h3 {
 
   .navbar {
     display: none;
+    font-size: 15px;
   }
 
   .badge {
@@ -10069,13 +10079,13 @@ h3 {
   color: #000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  font-weight: 700;
+  font-weight: 550;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  font-weight: 700;
+  font-weight: 550;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10208,7 +10218,7 @@ h3 {
 
 .floating-label-form-group {
   position: relative;
-  border: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -10255,7 +10265,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 3rem;
   padding-bottom: 2rem;
-  background-color: #0c5678;
+  background-color: #34bb9d;
   color: #fff;
 }
 .footer h4 {
@@ -10280,7 +10290,7 @@ form .row:first-child .floating-label-form-group {
   line-height: 1.5;
   max-width: 80%;
   text-align: center;
-  color: #0c5678;
+  color: #34bb9d;
   font-family: Montserrat;
   /* font-weight: 700; */
 }
@@ -10289,7 +10299,7 @@ form .row:first-child .floating-label-form-group {
   margin-top: 10px;
   display: block;
   font-weight: 200;
-  color: #0c5678;
+  color: #34bb9d;
   font-family: Montserrat;
 }
 
@@ -10300,7 +10310,7 @@ form .row:first-child .floating-label-form-group {
   top: 10px;
   left: 10px;
   font-size: 10em;
-  color: #0c5678;
+  color: #34bb9d;
   font-weight: 300;
 }
 
