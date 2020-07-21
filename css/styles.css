@@ -6054,10 +6054,10 @@ a.close.disabled {
 }
 
 .bg-primary-picture {
-  background-image: url(../assets/img/cazals-osteo.jpg);
+  background-image: url(../assets/img/cazals-osteo.JPG);
   background-size: cover;
   background-position: center;
-  height: 750px;
+  height: 900px;
 }
 .bg-primary-contact {
   background-color: #000;
