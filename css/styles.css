@@ -6059,6 +6059,12 @@ a.close.disabled {
   background-position: center;
   height: 750px;
 }
+.bg-cabinet-picture {
+  background-image: url(../assets/img/cabinet.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
 .bg-primary-contact {
   background-color: #000;
   background-size: cover;
