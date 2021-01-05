@@ -1,3 +1,4 @@
+Sitemap: http://cazals-osteo.fr/sitemap.xml
 User-Agent: *
 Allow: /
 
