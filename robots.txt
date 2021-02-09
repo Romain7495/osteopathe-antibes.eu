@@ -1,4 +1,4 @@
-Sitemap: http://cazals-osteo.fr/sitemap.xml
+Sitemap: https://osteopathe-antibes.eu/sitemap.xml
 User-Agent: *
 Allow: /
 
